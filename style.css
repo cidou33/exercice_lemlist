@@ -1,0 +1,290 @@
+.header1 {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(47, 92, 218), rgb(49, 29, 224));
+    font-size: 25px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.bouton {
+    height: 29px;
+    width: 180px;
+    background: white;
+    color: blue;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-family:'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+    width: 100%;
+    background-color:white;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+.bouton1 {
+    display: flex;
+    background: rgb(200, 222, 247);
+    justify-content: center;
+    align-items: center;
+    height: 29px;
+    width: 160px;
+    border-radius: 20px;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.bouton1:hover {
+    background: orange;
+}
+
+.bouton2 {
+    display: flex;
+    background:rgb(240, 240, 243);
+    justify-content: center;
+    align-items: center;
+    height: 29px;
+    width: 160px;
+    border-radius: 20px;
+    justify-content: space-around;
+    color: rgb(16, 38, 235);
+    margin-left: 50px;
+    border-color: blue;
+    border: 2px solid;
+    cursor: pointer;
+}
+.double_bouton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bouton21 {
+    width: 202px;
+    display: flex;
+    background:blue;
+    justify-content: flex-start;
+    align-items: center;
+    height: 31px;
+    border-radius: 20px;
+    justify-content: space-around;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.bouton21:hover{
+    background-color: rgb(49, 56, 145);
+}
+
+.bouton2:hover{
+    background-color: blue;
+    color: white;
+}
+
+body{
+    height: 2000px;
+}
+
+.corps1 {
+    font-size: 30px;
+    width: 560px;
+    margin-left: 20%;
+    margin-top: 100px;
+    height: 590px;
+
+}
+
+.texte1 {
+    font-size: 55px;
+}
+
+.corps {
+    display: flex;
+}
+
+.corps2 {
+    margin-top: 140px;
+    margin-left: 120px;
+
+}
+
+.texte2 {
+    font-size: 25px;
+    color: gray;
+}
+
+.bouton3 {
+    width: 180px;
+    display: flex;
+    background:blue;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: space-around;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.texte3 {
+    font-size: 18px;
+    margin-left: 15px;
+    color: gray;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(55, 55, 100);
+    width: 100%;
+    height: 70px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+
+}
+
+.text_footer1 {
+    margin-left: 30px;
+    align-content: center;
+    margin-top: 4%;
+}
+
+.text_footer2 {
+    margin-left: 10px;
+    text-decoration: underline;
+    color: rgb(129, 124, 124);
+    align-content: center;
+    margin-top: 1.5%;
+}
+
+.text_footer2 :hover {
+    color: white;
+}
+
+.text_footer3 {
+    display: flex;
+    
+    width: 150px;
+
+    
+}
+
+.text_footer4 {
+    background-color: rgb(55, 55, 100);
+    border-color: rgb(129, 124, 124);
+    color: rgb(129, 124, 124);
+    border: 2px solid;
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-left: 55%;
+    margin-top: 20px;
+
+}
+
+.double_text {
+    display: flex;
+}
+
+.text_footer4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.banniere_logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.texte4 {
+    text-align: center;
+    font-size: 24px;
+    color: gray;
+}
+
+.fond1 {
+    background-color: rgb(240, 234, 234);
+    width: 100%;
+    height: 860px;
+
+}
+.menu {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.categorie {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.menu .categorie ul {
+    background-color: white;
+    display: none;
+}
+
+.menu .categorie:hover ul {
+    display: block;
+    position: absolute;
+}
+
+.soustitre {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.soustitre1 {
+    color: gray;
+    font-family: 'Poppins' sans-serif;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.en_tete {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
